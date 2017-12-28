@@ -9,7 +9,7 @@
 
 section
 {
-	height:400px;
+	min-height:400px;
 	width:100%;
 	padding:2%;
 	background:url("../img/bg-blur.jpg"),linear-gradient(to bottom, white, #EEE);
@@ -20,6 +20,14 @@ section
 section#main
 {
 	background:url("../img/bg.jpeg"), linear-gradient(to bottom, white, #EEE);
+	height:400px;
+}
+
+section#info
+{
+	background:linear-gradient(to bottom, white, #AAA);
+	background:-moz-linear-gradient(to bottom, white, #AAA);
+	background:-webkit-linear-gradient(to bottom, white, #AAA);
 }
 
 section#main  h1
